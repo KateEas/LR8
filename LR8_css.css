@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: "Antikvarika";
+    src: url("Antikvarika.ttf");
+  }
+
+
+/* Основные стили */
+body {
+    font-family: "Antikvarika", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff6b6b;
+}
+
+p {
+    font-family: "Antikvarika", sans-serif;
+    font-size: 25px;
+
+}
+
+.header-title p {
+    font-size: 40px;
+    color: #666;
+}
+
+.main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.products h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Antikvarika", sans-serif;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+
+}
+
+.product-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.product-card .price {
+    font-weight: bold;
+}
+
+.product-card button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.product-card button:hover {
+    background-color: #e65c5c;
+}
+
+
+
+.footer {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
